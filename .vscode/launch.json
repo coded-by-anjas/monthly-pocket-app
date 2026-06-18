@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "monthly-pocket (dev)",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": [
+        "--dart-define=API_BASE_URL=https://monthly-pocket.vercel.app",
+        "--dart-define=SUPABASE_URL=https://miwsyvikohrgwfinusjp.supabase.co",
+        "--dart-define=SUPABASE_ANON_KEY=sb_publishable_-wVcnr80BrcEKWyLkTamaQ_8cyW5Slx"
+      ]
+    }
+  ]
+}

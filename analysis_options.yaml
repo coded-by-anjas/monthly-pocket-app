@@ -5,6 +5,11 @@ analyzer:
     - '**/*.g.dart'
     - '**/*.freezed.dart'
     - '**/generated_migrations/**'
+    - 'test/lib/**'
+  errors:
+    # freezed 3.x: @JsonKey on factory constructor params triggers this;
+    # it's a false positive — codegen handles it correctly.
+    invalid_annotation_target: ignore
 
 linter:
   rules:
